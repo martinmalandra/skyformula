@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Skyformula — Estudio de diseño web y gráfico</title>
+    <meta name="description" content="Estudio de diseño web y gráfico: sitios web, piezas para redes sociales, anuncios e imprimibles.">
+
+    <!--Enlace a tipografías de Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@112,600;112,700&amp;family=Instrument+Sans:wght@400;500;600&amp;display=swap">
+
+    <!--Enlace a la hoja de estilos-->
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <!--Favicon-->
+    <link rel="icon" href="imagenes/favicon.png">
+
+    <!--Menú activo y filtros del portfolio-->
+    <script src="js/menu.js" defer></script>
+</head>
+
+<body>
+    <!--CONTENEDOR GENERAL: envuelve todo el contenido de la página-->
+    <div id="contenedor-general">
+        <!--BARRA DE NAVEGACIÓN-->
+        <header>
+            <div class="contenedor header-fila">
+                <h1>
+                    <a href="#inicio">Skyformula</a>
+                </h1>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#inicio" class="activo">Inicio</a>
+                        </li>
+                        <li>
+                            <a href="#estudio">El estudio</a>
+                        </li>
+                        <li>
+                            <a href="#servicios">Servicios</a>
+                        </li>
+                        <li>
+                            <a href="#soluciones">Soluciones</a>
+                        </li>
+                        <li>
+                            <a href="#portfolio">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="#recomendaciones">Recomendaciones</a>
+                        </li>
+                        <li>
+                            <a href="#faq">Preguntas</a>
+                        </li>
+                        <li>
+                            <a href="#contacto">Contacto</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <!--HERO - SECCIÓN PRINCIPAL-->
+            <section id="inicio">
+                <div class="hero">
+                    <video class="hero-video" autoplay muted loop playsinline poster="imagenes/hero-poster.jpg">
+                        <source src="video/hero-video.mp4" type="video/mp4">
+                    </video>
+
+                    <div class="hero-texto">
+                        <img class="hero-isotipo" src="imagenes/isotipo.svg" alt="Isotipo de Skyformula">
+                        <p class="rotulo">Estudio de diseño digital</p>
+                        <h2>Diseño web y gráfico para marcas que quieren crecer.</h2>
+                        <p class="hero-bajada">
+                            Landing pages, sitios institucionales, tiendas online, piezas para redes y anuncios. Todo lo visual de tu marca, en web y en digital, en un mismo lugar.
+                        </p>
+                        <a class="boton boton-principal" href="#servicios">Ver servicios</a>
+                        <a class="boton boton-secundario" href="#portfolio">Ver trabajos</a>
+                    </div>
+                </div>
+
+                <!--FRANJA DE SERVICIOS-->
+                <div class="franja">
+                    <ul class="contenedor">
+                        <li>Redes sociales</li>
+                        <li>Landing pages</li>
+                        <li>Ecommerce</li>
+                        <li>Ads e imprimibles</li>
+                        <li>Marketing digital</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!--EL ESTUDIO (QUIÉNES SOMOS)-->
+            <section id="estudio">
+                <div class="contenedor">
+                    <p class="rotulo">01 — El estudio</p>
+                    <h2>Un estudio de diseño web y gráfico</h2>
+
+                    <div class="estudio-fila">
+                        <article class="perfil">
+                            <figure>
+                                <img src="imagenes/martin.jpg" alt="Retrato de Martín Malandra">
+                            </figure>
+                            <div class="perfil-texto">
+                                <h3>Martín Malandra</h3>
+                                <p class="perfil-rol">Fundador · Diseño gráfico y desarrollo web</p>
+                                <p>
+                                    Skyformula es un estudio de diseño web y gráfico con base en Salto, provincia de Buenos Aires. El estudio trabaja con marcas, emprendimientos y agencias que necesitan resolver su comunicación visual en la web, en redes y en anuncios.
+                                </p>
+                                <p>
+                                    Lo dirige Martín Malandra, que trabaja desde hace <em>cuatro años</em> con agencias de Estados Unidos, Canadá, México, Reino Unido, España y Singapur, en identidad, piezas digitales y sitios web. Estudia Diseño Gráfico Digital en Escuela Da Vinci, <abbr title="Ciudad Autónoma de Buenos Aires">CABA</abbr>.
+                                </p>
+                            </div>
+                        </article>
+
+                        <aside class="como-trabaja">
+                            <h3>Cómo trabaja el estudio</h3>
+                            <ol>
+                                <li><strong>Brief.</strong> Una charla sobre tu marca, tu público y lo que necesitás.</li>
+                                <li><strong>Propuesta.</strong> Alcance, plazos y presupuesto por escrito.</li>
+                                <li><strong>Diseño.</strong> Primera versión y dos rondas de ajustes.</li>
+                                <li><strong>Entrega.</strong> Archivos finales, sitio publicado o plantillas editables.</li>
+                            </ol>
+                        </aside>
+                    </div>
+
+                    <!--HERRAMIENTAS-->
+                    <div class="herramientas">
+                        <h3>Herramientas del estudio</h3>
+                        <ul>
+                            <li><img src="imagenes/herramientas/figma.svg" alt="Ícono de Figma"><span>Figma</span></li>
+                            <li><img src="imagenes/herramientas/photoshop.svg" alt="Ícono de Photoshop"><span>Photoshop</span></li>
+                            <li><img src="imagenes/herramientas/illustrator.svg" alt="Ícono de Illustrator"><span>Illustrator</span></li>
+                            <li><img src="imagenes/herramientas/indesign.svg" alt="Ícono de InDesign"><span>InDesign</span></li>
+                            <li><img src="imagenes/herramientas/after-effects.svg" alt="Ícono de After Effects"><span>After Effects</span></li>
+                            <li><img src="imagenes/herramientas/cinema-4d.svg" alt="Ícono de Cinema 4D"><span>Cinema 4D</span></li>
+                            <li><img src="imagenes/herramientas/wordpress.svg" alt="Ícono de WordPress"><span>WordPress</span></li>
+                            <li><img src="imagenes/herramientas/framer.svg" alt="Ícono de Framer"><span>Framer</span></li>
+                            <li><img src="imagenes/herramientas/html.svg" alt="Ícono de HTML"><span>HTML</span></li>
+                            <li><img src="imagenes/herramientas/css.svg" alt="Ícono de CSS"><span>CSS</span></li>
+                            <li><img src="imagenes/herramientas/js.svg" alt="Ícono de JavaScript"><span>JavaScript</span></li>
+                            <li><img src="imagenes/herramientas/claude.svg" alt="Ícono de Claude"><span>Claude</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!--SERVICIOS-->
+            <section id="servicios">
+                <div class="contenedor">
+                    <p class="rotulo">02 — Servicios</p>
+                    <h2>Servicios</h2>
+                    <p class="bajada">Se pueden contratar por separado o combinados en un proyecto completo.</p>
+
+                    <div class="servicios-grilla">
+                        <article class="servicio">
+                            <p class="servicio-numero">01</p>
+                            <h3>Diseño para redes sociales</h3>
+                            <p class="servicio-desc">Posts, carruseles e historias con una línea visual coherente, más plantillas para publicar por tu cuenta.</p>
+                            <ul>
+                                <li>Grilla de feed</li>
+                                <li>Carruseles e historias</li>
+                                <li>Plantillas editables</li>
+                            </ul>
+                        </article>
+                        <article class="servicio">
+                            <p class="servicio-numero">02</p>
+                            <h3>Diseño web</h3>
+                            <p class="servicio-desc">Sitios diseñados y desarrollados, desde una página de campaña hasta una tienda online.</p>
+                            <ul>
+                                <li>Landing pages</li>
+                                <li>Sitios institucionales</li>
+                                <li>Ecommerce</li>
+                            </ul>
+                        </article>
+                        <article class="servicio">
+                            <p class="servicio-numero">03</p>
+                            <h3>Diseño gráfico digital</h3>
+                            <p class="servicio-desc">Anuncios para redes y buscadores, y piezas listas para imprimir.</p>
+                            <ul>
+                                <li>Ads para Meta y Google</li>
+                                <li>Banners</li>
+                                <li>Flyers, afiches y tarjetas</li>
+                            </ul>
+                        </article>
+                        <article class="servicio">
+                            <p class="servicio-numero">04</p>
+                            <h3>Diseño para marketing digital</h3>
+                            <p class="servicio-desc">Piezas para campañas y comunicación comercial, con la misma identidad en cada canal.</p>
+                            <ul>
+                                <li>Email marketing</li>
+                                <li>Kits de campaña</li>
+                                <li>Presentaciones comerciales</li>
+                            </ul>
+                        </article>
+                    </div>
+
+                    <div class="seccion-pie">
+                        <a class="boton boton-oscuro" href="#contacto">Pedir presupuesto</a>
+                        <p>El estudio también trabaja en marca blanca para agencias.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!--SOLUCIONES WEB-->
+            <section id="soluciones">
+                <div class="contenedor">
+                    <p class="rotulo">03 — Soluciones web</p>
+                    <h2>Tres formas de hacer tu sitio</h2>
+                    <p class="bajada">La plataforma se elige según el tipo de sitio, cuánto contenido se va a cargar y quién lo va a actualizar.</p>
+
+                    <div class="soluciones-grilla">
+                        <article class="solucion">
+                            <div class="solucion-iconos">
+                                <img src="imagenes/herramientas/wordpress.svg" alt="Logo de WordPress">
+                            </div>
+                            <p class="solucion-plataforma">WordPress</p>
+                            <h3>Sitios autoadministrables</h3>
+                            <p class="solucion-desc">Para marcas que cargan contenido seguido, como novedades, productos o blog. Ideal para sitios institucionales y ecommerce.</p>
+                            <ul>
+                                <li>Panel para editar textos, imágenes y entradas</li>
+                                <li>Tienda online con WooCommerce</li>
+                            </ul>
+                        </article>
+
+                        <article class="solucion">
+                            <div class="solucion-iconos">
+                                <img src="imagenes/herramientas/framer.svg" alt="Logo de Framer">
+                            </div>
+                            <p class="solucion-plataforma">Framer</p>
+                            <h3>Sitios con animación</h3>
+                            <p class="solucion-desc">Para lanzamientos y campañas con movimiento, publicados en poco tiempo. Ideal para landing pages y portfolios.</p>
+                            <ul>
+                                <li>Diseño en Figma llevado a Framer</li>
+                                <li>Animaciones e interacciones</li>
+                            </ul>
+                        </article>
+
+                        <article class="solucion">
+                            <div class="solucion-iconos">
+                                <img src="imagenes/herramientas/html.svg" alt="Logo de HTML">
+                                <img src="imagenes/herramientas/css.svg" alt="Logo de CSS">
+                                <img src="imagenes/herramientas/js.svg" alt="Logo de JavaScript">
+                            </div>
+                            <p class="solucion-plataforma">HTML, CSS y JavaScript</p>
+                            <h3>Sitios en código</h3>
+                            <p class="solucion-desc">Páginas livianas a medida, sin constructores ni plantillas. Ideal para landing pages y sitios de una página.</p>
+                            <ul>
+                                <li>Sin costos mensuales de plataforma</li>
+                                <li>Publicación en Netlify con tu dominio</li>
+                            </ul>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <!--PORTFOLIO: los botones filtran las tarjetas (js/menu.js)-->
+            <section id="portfolio">
+                <div class="contenedor">
+                    <p class="rotulo">04 — Portfolio</p>
+                    <h2>Trabajos</h2>
+
+                    <div class="filtros">
+                        <button class="filtro activo" type="button" data-filtro="todos">Todos</button>
+                        <button class="filtro" type="button" data-filtro="web">Diseño web</button>
+                        <button class="filtro" type="button" data-filtro="academico">Académicos</button>
+                    </div>
+
+                    <ul class="trabajos">
+                        <li data-categoria="web">
+                            <figure>
+                                <img src="imagenes/portfolio/ohcool.webp" alt="Sitio de OhCool en una notebook: retrato de Oliver Osborne junto al título de la home">
+                                <figcaption>
+                                    <span class="trabajo-tipo">Diseño web</span>
+                                    <span class="trabajo-nombre">OhCool.ca</span>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li data-categoria="web">
+                            <figure>
+                                <img src="imagenes/portfolio/senet.webp" alt="Sitio de SENET Argentina en una notebook: gráfico de una nube luminosa y título en español">
+                                <figcaption>
+                                    <span class="trabajo-tipo">Diseño web</span>
+                                    <span class="trabajo-nombre">Senet.ar</span>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li data-categoria="web">
+                            <figure>
+                                <img src="imagenes/portfolio/naler.webp" alt="Sitio de NALER en una notebook: logo azul sobre un ventilador industrial">
+                                <figcaption>
+                                    <span class="trabajo-tipo">Diseño web</span>
+                                    <span class="trabajo-nombre">NALER</span>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li data-categoria="web">
+                            <figure>
+                                <img src="imagenes/portfolio/bookbusterdeals.webp" alt="Tienda online de Book Buster Deals en una notebook: banner de nuevas series de ebooks">
+                                <figcaption>
+                                    <span class="trabajo-tipo">Diseño web</span>
+                                    <span class="trabajo-nombre">Book Buster Deals</span>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li data-categoria="web">
+                            <figure>
+                                <img src="imagenes/portfolio/bookwarehouse.webp" alt="Sitio de Book Warehouse en una notebook: una persona leyendo frente a un lago">
+                                <figcaption>
+                                    <span class="trabajo-tipo">Diseño web</span>
+                                    <span class="trabajo-nombre">Book Warehouse</span>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li data-categoria="academico">
+                            <figure>
+                                <img src="imagenes/portfolio/stellaria.webp" alt="Envoltorios de alfajores Stellaria sobre un salar espejado bajo la Vía Láctea">
+                                <figcaption>
+                                    <span class="trabajo-tipo">Académico</span>
+                                    <span class="trabajo-nombre">Stellaria</span>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li data-categoria="academico">
+                            <figure>
+                                <img src="imagenes/portfolio/kick-shoes.webp" alt="Afiche de Kick: un corredor en un entorno urbano con la zapatilla en primer plano">
+                                <figcaption>
+                                    <span class="trabajo-tipo">Académico</span>
+                                    <span class="trabajo-nombre">Kick Shoes</span>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li data-categoria="academico">
+                            <figure>
+                                <img src="imagenes/portfolio/packaging.webp" alt="Envoltorio negro del chocolate Astral Chocolat con trazos dorados art nouveau">
+                                <figcaption>
+                                    <span class="trabajo-tipo">Académico</span>
+                                    <span class="trabajo-nombre">Estéticas históricas en packaging</span>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li data-categoria="academico">
+                            <figure>
+                                <img src="imagenes/portfolio/f1-mag.webp" alt="Tapa de la revista De Fangio a Max, edición especial de F1, con un auto Haas">
+                                <figcaption>
+                                    <span class="trabajo-tipo">Académico</span>
+                                    <span class="trabajo-nombre">F1 MAG</span>
+                                </figcaption>
+                            </figure>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <!--RECOMENDACIONES (LinkedIn)-->
+            <section id="recomendaciones">
+                <div class="contenedor">
+                    <p class="rotulo">05 — Recomendaciones</p>
+                    <h2>Quienes trabajaron con Martín</h2>
+
+                    <ul class="recomendaciones">
+                        <li>
+                            <figure class="recomendacion">
+                                <blockquote>
+                                    <p>Trabajamos con él hace varios años y seguimos recurriendo a su ayuda. Le dimos las «llaves del castillo» y siempre trató nuestros sitios con respeto, seguridad y cuidado. […]</p>
+                                </blockquote>
+                                <figcaption>
+                                    <img src="imagenes/recomendaciones/nicolas-gremion.jpg" alt="Foto de Nicolas Gremion">
+                                    <span>
+                                        <strong>Nicolas Gremion</strong>
+                                        <span>Emprendedor · eCommerce</span>
+                                    </span>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure class="recomendacion">
+                                <blockquote>
+                                    <p>Martín es un gran desarrollador y diseñador web, y además sabe gestionar proyectos. […] Es muy apasionado y de trato fácil. Lo recomiendo totalmente.</p>
+                                </blockquote>
+                                <figcaption>
+                                    <img src="imagenes/recomendaciones/charly-amoruso.jpg" alt="Foto de Charly Amoruso">
+                                    <span>
+                                        <strong>Charly Amoruso</strong>
+                                        <span>Especialista en <abbr title="Experiencia del cliente">CX</abbr></span>
+                                    </span>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure class="recomendacion">
+                                <blockquote>
+                                    <p>Desde lo comercial, se pone en el lugar del cliente y entiende su ecosistema, lo que ayuda a potenciar su marca y a crecer en mercados competitivos. […]</p>
+                                </blockquote>
+                                <figcaption>
+                                    <img src="imagenes/recomendaciones/alejandro-mateos.jpg" alt="Foto de Alejandro C. Mateos">
+                                    <span>
+                                        <strong>Alejandro C. Mateos</strong>
+                                        <span>Senior Consultant en Loss Prevention AM</span>
+                                    </span>
+                                </figcaption>
+                            </figure>
+                        </li>
+                    </ul>
+
+                    <p class="recomendaciones-nota">
+                        Recomendaciones recibidas en LinkedIn, traducidas del inglés.
+                        <a href="https://www.linkedin.com/in/martinmalandra/details/recommendations/" target="_blank" rel="noopener">Ver originales en LinkedIn</a>
+                    </p>
+                </div>
+            </section>
+
+            <!--PREGUNTAS FRECUENTES-->
+            <section id="faq">
+                <div class="contenedor">
+                    <p class="rotulo">06 — Preguntas frecuentes</p>
+                    <h2>Preguntas frecuentes</h2>
+
+                    <div class="faq">
+                        <details open>
+                            <summary>¿Cuánto tarda y cómo se presupuesta?</summary>
+                            <p>Una landing page lleva entre 2 y 3 semanas, y un sitio institucional, entre 4 y 6. Con el brief, el estudio arma una propuesta por escrito con alcance, plazos y precio cerrado.</p>
+                        </details>
+                        <details>
+                            <summary>¿Qué incluye un sitio?</summary>
+                            <p>El diseño, el desarrollo y la publicación con tu dominio. Según la plataforma, también una capacitación para manejarlo, el hosting, el mail corporativo y el mantenimiento.</p>
+                        </details>
+                        <details>
+                            <summary>¿Qué hace falta para empezar?</summary>
+                            <p>El logo, los textos y las fotos, si ya los tenés. Si falta algo, se suma al proyecto.</p>
+                        </details>
+                        <details>
+                            <summary>¿Trabajan con agencias o desde otro país?</summary>
+                            <p>Sí. El estudio trabaja en marca blanca para agencias y de forma remota, en español y en inglés, desde Argentina (<abbr title="Hora del meridiano de Greenwich">GMT</abbr>-3).</p>
+                        </details>
+                    </div>
+                </div>
+            </section>
+
+            <!--CONTACTO-->
+            <section id="contacto">
+                <div class="contenedor">
+                    <p class="rotulo">07 — Contacto</p>
+                    <h2>Hablemos</h2>
+                    <p class="bajada">Contá qué necesitás y el estudio te responde dentro de las 48 horas hábiles.</p>
+
+                    <div class="contacto-fila">
+                        <!--El formulario envía los datos a Formspree, que los reenvía por mail-->
+                        <form class="formulario" action="https://formspree.io/f/xeaebgyr" method="post">
+                            <div class="campo">
+                                <label for="nombre">Nombre</label>
+                                <input type="text" id="nombre" name="nombre" required>
+                            </div>
+                            <div class="campo">
+                                <label for="marca">Marca o empresa</label>
+                                <input type="text" id="marca" name="marca">
+                            </div>
+                            <div class="campo">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="campo">
+                                <label for="telefono">Teléfono</label>
+                                <input type="tel" id="telefono" name="telefono">
+                            </div>
+                            <div class="campo campo-ancho">
+                                <label for="servicio">Servicio de interés</label>
+                                <select id="servicio" name="servicio">
+                                    <option>Diseño para redes sociales</option>
+                                    <option>Diseño web</option>
+                                    <option>Diseño gráfico digital</option>
+                                    <option>Diseño para marketing digital</option>
+                                    <option>Proyecto combinado</option>
+                                    <option>Marca blanca para una agencia</option>
+                                </select>
+                            </div>
+                            <div class="campo campo-ancho">
+                                <label for="mensaje">Mensaje</label>
+                                <textarea id="mensaje" name="mensaje" rows="6" required></textarea>
+                            </div>
+                            <button class="boton boton-enviar" type="submit">Enviar mensaje</button>
+                        </form>
+
+                        <div class="datos">
+                            <address>
+                                <span class="dato-titulo">Estudio</span>
+                                <span class="dato">Arredondo 670, Salto, Provincia de Buenos Aires</span>
+                                <span class="dato-titulo">Email</span>
+                                <a class="dato" href="mailto:hola@skyformula.com">hola@skyformula.com</a>
+                                <span class="dato-titulo">Teléfono</span>
+                                <a class="dato" href="tel:+5492474404855">+54 2474 404855</a>
+                                <span class="dato-titulo">WhatsApp</span>
+                                <a class="dato" href="https://wa.me/5492474404855" target="_blank" rel="noopener">Escribir por WhatsApp</a>
+                            </address>
+                            <span class="dato-titulo">Redes</span>
+                            <ul class="redes">
+                                <li>
+                                    <a href="https://www.linkedin.com/in/martinmalandra/" target="_blank" rel="noopener"><img src="imagenes/redes/linkedin.svg" alt="Ícono de LinkedIn">LinkedIn</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.upwork.com/freelancers/~015b125e80b4e9f618" target="_blank" rel="noopener"><img src="imagenes/redes/upwork.svg" alt="Ícono de Upwork">Upwork</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com/itsmalandra/" target="_blank" rel="noopener"><img src="imagenes/redes/instagram.svg" alt="Ícono de Instagram">Instagram</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1349.8791530651997!2d-60.249229230298724!3d-34.29020929831679!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b90d7d796deb3f%3A0xca9f506ab30e204!2sArredondo%20670%2C%20B2741%20Salto%2C%20Provincia%20de%20Buenos%20Aires!5e1!3m2!1ses-419!2sar!4v1792441489293!5m2!1ses-419!2sar" title="Mapa con la ubicación del estudio en Salto" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                </div>
+            </section>
+        </main>
+
+        <!--PIE DE PÁGINA-->
+        <footer>
+            <div class="contenedor pie-fila">
+                <p class="pie-firma">
+                    <img src="imagenes/isotipo.svg" alt="Isotipo de Skyformula">
+                    &copy; 2026 Skyformula — Martín Malandra. Diseño web y gráfico.
+                </p>
+                <ul class="pie-links">
+                    <li><a href="https://www.linkedin.com/in/martinmalandra/" target="_blank" rel="noopener">LinkedIn</a></li>
+                    <li><a href="https://www.behance.net/martinmalandra" target="_blank" rel="noopener">Behance</a></li>
+                    <li><a href="https://www.instagram.com/itsmalandra/" target="_blank" rel="noopener">Instagram</a></li>
+                </ul>
+                <!--Vuelve al inicio con un ancla (no necesita JavaScript)-->
+                <a class="volver-arriba" href="#inicio">Volver arriba ↑</a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
